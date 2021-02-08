@@ -1,0 +1,19 @@
+.titulo{
+    background-color: rgb(66, 131, 131);
+}
+
+h1{
+    text-align: center;
+}
+
+.imagen{
+    display: flex;
+    height: 250px;
+    width: 250px;
+}
+
+
+.contenido {
+    display: flex;
+    border: black solid;
+}
