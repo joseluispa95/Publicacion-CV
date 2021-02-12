@@ -8,8 +8,8 @@ h1{
 
 .imagen{
     display: flex;
-    height: 250px;
-    width: 250px;
+    height: 150px;
+    width: 150px;
 }
 
 
@@ -17,3 +17,21 @@ h1{
     display: flex;
     border: black solid;
 }
+.personal {
+    border: black solid;
+    height: 20%;
+    width: 20%;
+}
+
+.datos_personales {
+    border: red solid;
+    
+
+}
+.profesional {
+    border: black solid;
+    height: 80%;
+    width: 80%;
+}
+
+
