@@ -1,16 +1,10 @@
-.titulo{
-    width:fit-content ;
-    height: fit-content;
-    border: tomato solid;
-    text-align: center;
-    border-radius: 250px;
-    padding: 15px;
-    justify-content: space-around;
-}
+
 
 h1{
     text-align: center;
+
 }
+
 ul{
     font-size: small;
 }
@@ -82,3 +76,187 @@ ul{
     width: 30%;
     
 }
+.lista_vertical{
+    display: flex;
+    flex-direction:row;
+    height: 100px;
+    width: 100px;
+    justify-content:space-around;
+    
+}
+
+@media all and(min-width: 720px){
+    h1{
+        text-align: center;
+        
+    
+    }
+    
+    ul{
+        font-size: small;
+    }
+    
+    /* .imagen{
+        display: none;
+        height: 150px;
+        width: 150px;
+    } */
+    
+    
+    .contenido {
+        display: flex;
+        padding: 15px;
+        content: 15px;
+        
+    }
+    .personal {
+        height: 20%;
+        width: 20%;
+    }
+    
+    
+    .profesional {
+        height: 80%;
+        width: 80%;
+    }
+    
+    .edcer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 10px;
+    }
+    
+    .uni{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        
+    }
+    .mast {
+        display: flex;
+        flex-direction: row;
+        list-style:none;
+        
+    }
+    
+    .edu {
+        height: 50%;
+        width: 50%;
+        
+    }
+    .cer {
+        height: 50%;
+        width: 50%;
+    }
+    
+    .rrss{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    }
+    .info-rrss{
+        list-style: none;
+        height: 30%;
+        width: 30%;
+    }
+    .lista_vertical{
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+        width: 100px;
+        justify-content: space-around;
+        
+    }
+}
+
+    @media all and (max-width:620px){
+        h1{
+            text-align: center;
+            
+        
+        }
+        
+        ul{
+            font-size: small;
+        }
+        
+        .imagen{
+            display: none;
+            height: 150px;
+            width: 150px;
+
+        }
+        
+        
+        .contenido {
+            display: flex;
+            padding: 15px;
+            content: 15px;
+            
+        }
+        .personal {
+            height: 20%;
+            width: 20%;
+        }
+        
+        
+        .profesional {
+            height: 80%;
+            width: 80%;
+        }
+        
+        .edcer {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            padding: 10px;
+        }
+        
+        .uni{
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            
+        }
+        .mast {
+            display: flex;
+            flex-direction: row;
+            list-style:none;
+            
+        }
+        
+        .edu {
+            height: 50%;
+            width: 50%;
+            
+        }
+        .cer {
+            height: 50%;
+            width: 50%;
+        }
+        
+        .rrss{
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        
+        }
+        .info-rrss{
+            list-style: none;
+            height: 30%;
+            width: 30%;
+        }
+        .lista_vertical{
+            display: flex;
+            flex-direction: column;
+            height: 500px;
+            width: 200px;
+            background-color: bla;
+            justify-content: space-evenly;
+            
+        }
+    }
