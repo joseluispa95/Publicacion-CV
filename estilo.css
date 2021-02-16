@@ -85,68 +85,7 @@ ul{
     
 }
 
-.elem_py{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    content: 10px;
-    
-}
-.elem_js{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    content: 10px;
-    
-    
-}
-.elem_html{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    content: 10px;
-    
-    
-}
-.elem_postgre{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    content: 10px;
-    
-    
-}
 
-.barra_py{
-    list-style: none;
-    background-color: lightcoral ;
-    width: 50%;
-    
-    
-}
-.barra_js{
-    list-style: none;
-    background-color: lightcoral ;
-    width: 40%;
-    
-}
-.barra_html{
-    list-style: none;
-    background-color: lightcoral ;
-    width: 60%;
-    
-}
-.barra_postgre{
-    list-style: none;
-    background-color: lightcoral ;
-    width: 80%;
-    
-}
-.barra {
-    display: flex;
-    flex-direction: row;
-
-}
 
 @media all and(min-width: 720px){
     h1{
@@ -238,14 +177,13 @@ ul{
     @media all and (max-width:620px){
         h1{
             text-align: center;
-            
-        
         }
         
         ul{
             font-size: small;
         }
         
+    
         .imagen{
             display: none;
             height: 150px;
@@ -318,8 +256,7 @@ ul{
             flex-direction: column;
             height: 500px;
             width: 200px;
-            background-color: bla;
-            justify-content: space-evenly;
             
         }
     }
+   
