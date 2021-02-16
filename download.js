@@ -4,3 +4,4 @@ print.addEventListener('click', imprimir);
 function imprimir() {
     window.print();
 }
+
